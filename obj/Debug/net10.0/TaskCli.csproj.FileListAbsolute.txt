@@ -12,3 +12,4 @@
 /Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.pdb
 /Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.genruntimeconfig.cache
 /Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/ref/TaskCli.dll
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.sourcelink.json
