@@ -1,0 +1,14 @@
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/bin/Debug/net10.0/TaskCli
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/bin/Debug/net10.0/TaskCli.deps.json
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/bin/Debug/net10.0/TaskCli.runtimeconfig.json
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/bin/Debug/net10.0/TaskCli.dll
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/bin/Debug/net10.0/TaskCli.pdb
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.AssemblyInfoInputs.cache
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.AssemblyInfo.cs
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.csproj.CoreCompileInputs.cache
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.dll
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/refint/TaskCli.dll
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.pdb
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/TaskCli.genruntimeconfig.cache
+/Users/arafat/Desktop/Task-training/Task-Tracker/TaskCli/obj/Debug/net10.0/ref/TaskCli.dll
