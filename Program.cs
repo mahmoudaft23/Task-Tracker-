@@ -26,6 +26,24 @@ if (File.Exists(filePath))
         tasks = JsonSerializer.Deserialize<List<TaskItem>>(content) ?? new List<TaskItem>();
 }
 
+Console.CancelKeyPress += (sender, e) =>
+{
+    
+    e.Cancel = true; 
+
+    try
+    {
+        string json = JsonSerializer.Serialize(tasks, options);
+        File.WriteAllText(filePath, json);
+        Console.WriteLine($"\nSaved {tasks.Count} task(s) to: {filePath}");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"\nError while saving: {ex.Message}");
+    }
+
+    Environment.Exit(0); 
+};
 
 
 while (true)
@@ -61,10 +79,39 @@ while (true)
     
     else if (cmd == "list")
     {
+         if (parts.Length == 1)
+    {
         foreach (var task in tasks)
         {
             Console.WriteLine(task.ToString());
         }
+        continue;
+    }
+        else if (parts[1] == "done")
+        {
+            foreach (var task in tasks)
+            {
+                if (task.Status == CliTaskStatus.Done)
+                {
+                    Console.WriteLine(task.ToString());
+                }
+            }
+            continue;
+        }
+        else if (parts[1] == "inprogress")
+        {
+            foreach (var task in tasks)
+            {
+                if (task.Status == CliTaskStatus.InProgress)
+                {
+                    Console.WriteLine(task.ToString());
+                }
+            }
+            continue;
+        }
+        
+       
+        
     }
 
     else if (cmd == "update")
@@ -100,8 +147,14 @@ while (true)
         }
     }
 
-    
+    else if (cmd == "delete")
+    {
+        tasks.RemoveAll(t => t.Id.ToString() == parts[1]);
+        Console.WriteLine("Task deleted successfully.");
+    }
 
+   
+    
     
 
 
